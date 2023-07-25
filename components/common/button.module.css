@@ -1,0 +1,19 @@
+.button {
+    background-image: linear-gradient(to right, #a855f7, #6366f1);
+    width: 150px;
+    clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
+    padding: 12px 0 12px 0;
+    text-align: center;
+}
+
+.imageWrapper {
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10%; */
+    clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
+}
+
+.personImage {
+    border-radius: 50%;
+    clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
+}

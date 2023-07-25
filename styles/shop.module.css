@@ -1,0 +1,68 @@
+.product {
+    /* padding: 20px 45px; */
+    border: 1px solid #999999;
+    display: inline-block;
+    position: relative;
+    background: black;
+    color: white;
+    margin: 25px;
+  }
+  .product:before, .product:after {
+    height: 75px;
+    width: 75px;
+    background: black;
+    position: absolute;
+    content: '';
+  }
+  .product:before {
+    z-index: 10;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #999999;
+    transform: rotate(49deg) translate(-71%);
+  }
+  .product:after {
+    bottom: 0;
+    right: 0;
+    border-left: 1px solid #999999;
+    transform: rotate(49deg) translate(71%);
+  }
+  .likeBtn{
+      right: 30px;
+  }
+  .head{
+      font-size: 50px !important;
+      z-index: 10;
+      margin: auto;
+  }
+  .drp{
+      /* right: 50%; */
+  }
+  .drop{
+    border: 1px solid #999999;
+    display: inline-block;
+    position: relative;
+    background: black;
+    color: white;
+    margin: 25px;
+  }
+  .drop:before, .drop:after {
+    height: 10px;
+    width: 10px;
+    background: black;
+    position: absolute;
+    content: '';
+  }
+  .drop:before {
+    z-index: 10;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #999999;
+    transform: rotate(49deg) translate(-71%);
+  }
+  .drop:after {
+    bottom: 0;
+    right: 0;
+    border-left: 1px solid #999999;
+    transform: rotate(49deg) translate(71%);
+  }

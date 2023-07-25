@@ -1,0 +1,86 @@
+/* .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    background: white;
+    position: relative;
+  }
+  .card:after, .card:before{
+      height: 50px;
+      width: 50px;
+      background: black;
+      position: absolute;
+      content: ' ';
+  }
+
+  .card:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 50px solid black;
+    border-left: 50px solid white;
+    width: 0;
+  }
+  .card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 50px solid white;
+    border-right: 50px solid black;
+    width: 0;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 300px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  } */
+  .button {
+    background-image: linear-gradient(to right, #a855f7, #6366f1);
+    width: 150px;
+    clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
+    padding: 12px 0 12px 0;
+    text-align: center;
+}
+
+  .imageWrapper {
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
+}
+/* .drop1{
+  margin-left: 200px;
+} */
+
+/* .drop {
+  padding: 20px 45px;
+  border: 1px solid #999999;
+  display: inline-block;
+  position: relative;
+  background: white;
+  color: #999999;
+}
+.drop:before, drop:after {
+  height: 25px;
+  width: 25px;
+  background: white;
+  position: absolute;
+  content: '';
+}
+.drop:before {
+  top: 0;
+  left: 0;
+  border-right: 1px solid #999999;
+  transform: rotate(49deg) translate(-71%);
+}
+.drop:after {
+  bottom: 0;
+  right: 0;
+  border-left: 1px solid #999999;
+  transform: rotate(49deg) translate(71%);
+} */

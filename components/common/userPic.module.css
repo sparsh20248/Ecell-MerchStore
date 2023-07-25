@@ -1,0 +1,4 @@
+.userimage {
+    width: 100px;
+    clip-path: polygon(18% 0, 100% 0, 100% 82%, 82% 100%, 0 100%, 0 18%);
+}
